@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two|Saira|Special+Elite|Tulpen+One&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -26,13 +27,15 @@ SIDE MENU SECTION
 .side-menu h2 {
   margin: 20px 6px;
   padding: 10px;
-  /* border-bottom: 1px solid black; */
+  font-family: "Special Elite", cursive;
 }
-
+.side-menu ul {
+}
 .side-menu ul li {
   padding: 10px;
   border-bottom: 1px solid black;
   list-style: none;
+  font-family: "Special Elite", cursive;
 }
 .side-menu ul li a {
   text-decoration: none;
@@ -56,6 +59,7 @@ header h1 {
   margin: 15px 25px;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
+  font-family: "Special Elite", cursive;
 }
 .main-section p {
   margin: 15px 30px;
