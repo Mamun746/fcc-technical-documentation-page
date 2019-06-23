@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  overflow-x: hidden;
+}
 /* 
 Utility section
 */
@@ -22,23 +25,27 @@ SIDE MENU SECTION
   position: fixed;
   width: 300px;
   height: 100vh;
-  border: 1px solid black;
+  border: 3px solid black;
 }
-.side-menu h2 {
+.side-menu header {
   margin: 20px 6px;
   padding: 10px;
+  font-size: 25px;
   font-family: "Special Elite", cursive;
+  font-weight: bold;
+  text-align: center;
 }
-.side-menu ul {
-}
+
 .side-menu ul li {
   padding: 10px;
   border-bottom: 1px solid black;
   list-style: none;
   font-family: "Special Elite", cursive;
+  cursor: pointer;
 }
 .side-menu ul li a {
   text-decoration: none;
+  color: #000;
 }
 
 /* 
@@ -55,7 +62,8 @@ CONTENT SeCTION
   max-width: 100%;
 }
 
-header h1 {
+header {
+  font-size: 30px;
   margin: 15px 25px;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
